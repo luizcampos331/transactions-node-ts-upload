@@ -21,12 +21,17 @@ Obs: use "income" para transações de entrda e "outcome" para transações de s
 
 ## :computer: Tecnologias Utilizadas
 
+Back-End
 - NodeJS
 - Express
 - TypeScript
 - uuidv4
 - multer
 - csv-parse
+- Axios
+
+Banco de dados
+- PostgreSQL
 
 ## :dart: Objetivo
 - Transação financeira de entrada
@@ -39,6 +44,7 @@ Obs: use "income" para transações de entrda e "outcome" para transações de s
 - Editor de código (recomendo o Visual Studio Code: https://code.visualstudio.com/)
 - Node JS (https://nodejs.org/en/)
 - Yarn (https://classic.yarnpkg.com/en/docs/install/#mac-stable)
+- PostrgreSQL (https://www.postgresql.org/)
 
 ## :package: Como Baixar o projeto
 Pelo seu terminal, escolha um local para o projeto e rode os comandos:
@@ -53,6 +59,8 @@ Pelo seu terminal, escolha um local para o projeto e rode os comandos:
   $ yarn
 
 ```
+Obs: tendo o postgreSQL instalado e iniciado, crie um banco com o nome "gostack_desafio06"<BR>
+rode o comando "yarn typeorm migration:run" para a criação das tabelas
 
 ## :bust_in_silhouette: Autor:
 Luiz Eduardo Campos da Silva</br>
